@@ -3,16 +3,16 @@ Node.js is a runtime environment for executing JavaScript code. It is used for b
 
 Node.js is NOT a programming language.
 
-# Check for current Node.js version from your computer:
+## Check for current Node.js version from your computer:
 Open command prompt and type:
 ```
 node --version
 ```
 
-# Check and install the latest version:
+## Check and install the latest version:
 Go to [Node.js official site](www.nodejs.org) and install the latest stable version. Click on download button.
 
-# Run scripts
+## Run scripts
 Go to command prompt and acces the folder that your project is placed in. Use the command:
 ```
 node app.js _(or the file name)_
@@ -28,12 +28,12 @@ To create a package.json file, go to npm-demo folder and run
 npm init
 ```
 
-# How to install a Node package
+## How to install a Node package
 ```
 npm install "packageName"
 ```
 
-# Check for dependencies versions
+### Check for dependencies versions
 ```
 npm list --depth=0
 ```
