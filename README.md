@@ -22,5 +22,17 @@ Every Node.js project has a main file, called "the main module". In this case, w
 
 For avoiding the overwriting possibilities in Node.js, we will use MODULES. Every file will represent its own module. In this way, in order to use information for a certain file, you will need to export it and make it public (in terms of OOP concept).
 
+# Node Package Manager (NPM)
+To create a package.json file, go to npm-demo folder and run
+```
+npm init
+```
+
+# How to install a Node package
+```
+npm install "packageName"
+```
+
 # Util links:
 - [Node.js modules](https://nodejs.org/dist/latest-v18.x/docs/api/)
+- [Node packages](https://www.npmjs.com/)
