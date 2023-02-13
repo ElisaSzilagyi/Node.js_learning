@@ -21,3 +21,6 @@ node app.js _(or the file name)_
 Every Node.js project has a main file, called "the main module". In this case, we have _app.js_ file. 
 
 For avoiding the overwriting possibilities in Node.js, we will use MODULES. Every file will represent its own module. In this way, in order to use information for a certain file, you will need to export it and make it public (in terms of OOP concept).
+
+# Util links:
+- [Node.js modules](https://nodejs.org/dist/latest-v18.x/docs/api/)
