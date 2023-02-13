@@ -33,6 +33,11 @@ npm init
 npm install "packageName"
 ```
 
+# Check for dependencies versions
+```
+npm list --depth=0
+```
+
 # Util links:
 - [Node.js modules](https://nodejs.org/dist/latest-v18.x/docs/api/)
 - [Node packages](https://www.npmjs.com/)
